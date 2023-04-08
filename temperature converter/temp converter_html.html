@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="project.css" rel="stylesheet">
+    <title>temperature converter</title>
+  </head>
+  <body>
+  
+   
+      <div class="container">
+
+        <div class="col">
+          <div class="col-1" >convert from</div>
+          <div>
+            <select id="select-1">
+              <option value="celsius" class="option">celsius</option>
+              <option value="farehnheit" class="option">farehnheit</option>
+              <option value="kelvin" class="option">kelvin</option>
+            </select>
+          </div>
+        </div>
+  
+  
+        <div class>
+          
+          <input type="number" placeholder="enter temperature">
+        </div>
+  
+        <div class="col">
+          <div class="col-1">convert to</div>
+          <div>
+            <select class="select">
+              <option value="celsius" class="option">celsius</option>
+              <option value="farehnheit" class="option">farehnheit</option>
+              <option value="kelvin" class="option">kelvin</option>
+            </select>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div><button onclick="display()"> convert</button></div>
+          <div class="result-1">
+            <p class="result"></p>
+          </div>
+        </div>
+  
+      </div>
+      <script src="index.js"></script>
+  
+  </body>
+</html>
+      
