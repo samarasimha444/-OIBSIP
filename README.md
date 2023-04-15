@@ -1,3 +1,4 @@
 1.   Temperature converter is a web application used to convert temperature into different units using HTML,CSS and JAVASCRIPT.Inside this folder there contain 3 files.
 these files contain source code.
-2.   landing a webpage is a design of basic webpage with the basic understanding of HTML and CSS.
+2.    Online quiz app uisng HTML ,CSS and JAVASCRIPT
+3.   landing a webpage is a design of basic webpage with the basic understanding of HTML and CSS.
