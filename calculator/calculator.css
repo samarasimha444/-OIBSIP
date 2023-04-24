@@ -1,0 +1,101 @@
+
+    
+
+  body  {margin: 0px;
+         background-color: rgb(205, 205, 205);
+        }
+
+  div{width: fit-content;}
+
+  .container{display: flex;
+            flex-direction: column;
+            position: relative;
+            left:35%;
+            top:150px;
+            overflow: hidden;
+            
+            }
+            
+
+    .top{
+        display: flex;
+         flex-direction: row;}
+
+    .bottom{
+            display: flex;
+            flex-direction: column; }
+
+     .row{
+        display: flex;
+        flex-direction: row;}
+
+    .display{
+             width:375px;
+             background-color: white;
+            align-items:end;
+          display: flex;flex-direction:column-reverse;}
+
+    .display-1{font-size: 38px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              padding-right: 10px;
+              padding-top: 10px;
+              height: 40px;
+              font-weight:lighter;
+            
+            }
+    .display-2{align-self: self-end;
+                 color:rgb(58, 58, 58);
+                padding-right: 10px;
+                 font-family: 'sans-serif';}
+        
+    
+    .col{
+         padding: 25px 38px;
+         font-size: 35px;
+         font-weight: bolder;
+         margin:0px;
+         color:white;
+         background-color: black;
+          cursor: pointer;
+          border: 0.1px solid rgb(0, 137, 137);
+        }
+    #full-stop{ 
+        padding-right: 47px;
+              }
+    .ac{
+       font-size: 31px;
+       padding: 20.5px 25px;
+       background-color: #07a7a7;
+       cursor: pointer;
+       }
+    #minus{
+        padding-right:40px ;
+        background-color: rgb(134, 134, 134);
+        }
+    #divsion{
+        padding-right:42px ;
+        background-color: rgb(134, 134, 134);
+    }
+    #multi{
+        padding-right:32px ;
+        background-color: rgb(134, 134, 134);
+        font-weight: lighter;
+        font-size: 27px;
+        }
+    #equal{font-size: 40px;
+           padding-top: 20px;
+           padding-right:82px ;
+           padding-left:80px ;
+          background-color: rgb(71, 71, 71);
+        }
+    #plus{ padding-right: 32px;
+        background-color: rgb(134, 134, 134);
+    }
+.col:hover{color: teal;
+          border-color: rgb(255, 255, 255);}
+#arrow{font-size: 35px;
+       padding-left: 29px; 
+       padding-right: 29px;
+     }
+#left{padding-right: 40px;}
+#right{padding-right: 40px;}
